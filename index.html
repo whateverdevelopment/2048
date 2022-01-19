@@ -46,6 +46,35 @@
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
+        <!-- Menu -->
+        <div class="menu">
+          <a class="btn menu-btn" href="#" onclick="toggleShow('menu-content')" role="button" id="menuButton" data-toggle="menu" aria-haspopup="true" aria-expanded="false">
+            ...
+          </a>
+          <div id="menu-content" class="menu-content" aria-labelledby="menuButton">
+            <!-- Config -->
+            <a href="#" onclick="accessibility.buttonAction('accNight')">
+              <img id="accNightIcon" src="images/bs-icons/toggle-off.svg" alt="Off" width="16" height="16">
+              Night
+            </a>
+            <a href="#" onclick="accessibility.buttonAction('accDyslexic')">
+              <img id="accDyslexicIcon" src="images/bs-icons/toggle-off.svg" alt="Off" width="16" height="16">
+              Dyslexic
+            </a>
+
+            <hr>
+
+            <!-- External Links -->
+            <a href="https://gitlab.com/whateverdev/games/2048" target="_blank">
+              <img src="images/bs-icons/box-arrow-up-left.svg" alt="External link" width="16" height="16">
+              Source
+            </a>
+            <a href="https://whateverdev.com/privacy/" target="_blank">
+              <img src="images/bs-icons/box-arrow-up-left.svg" alt="External link" width="16" height="16">
+              Privacy
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
