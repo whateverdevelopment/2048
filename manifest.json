@@ -1,0 +1,25 @@
+{
+  "name": "2048",
+  "short_name": "2048",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#776e65",
+  "description": "Join the tiles to make the infamous 2048.",
+  "icons": [{
+    "src": "images/logo/twentyfortyeight32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  }, {
+    "src": "images/logo/twentyfortyeight64.png",
+    "sizes": "64x64",
+    "type": "image/png"
+  }, {
+    "src": "images/logo/twentyfortyeight128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": "images/logo/twentyfortyeight256.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }]
+}
