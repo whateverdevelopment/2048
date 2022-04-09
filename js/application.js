@@ -15,8 +15,8 @@ function toggleIcon(iconID, iconState) {
 	// Fetch Document Element
 	var toggleIcon = document.getElementById(iconID);
 	// Define Icon Classes
-	var toggleOn = "images/bs-icons/toggle-on.svg";
-	var toggleOff = "images/bs-icons/toggle-off.svg";
+	var toggleOn = "images/vermilicon/toggle-right.svg";
+	var toggleOff = "images/vermilicon/toggle-left.svg";
 
 	// Set Button Icon
 	if (iconState === true) {
