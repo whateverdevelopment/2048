@@ -1,12 +1,5 @@
 /* Font | Mukta */
 /* License: ../fonts/Mukta/LICENSE */
-/* Style = Normal */
-@font-face {
-  font-family: "Mukta";
-  src: url("../fonts/Mukta/Mukta-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
 @font-face {
   font-family: "Mukta";
   src: url("../fonts/Mukta/Mukta-Regular.ttf") format("truetype");
@@ -22,7 +15,6 @@
 
 /* Font | OpenDyslexic */
 /* License: ../fonts/OpenDyslexic/LICENSE */
-/* Style = Normal */
 @font-face {
   font-family: "OpenDyslexic";
 	font-style: normal;
